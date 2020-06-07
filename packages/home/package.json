@@ -1,0 +1,22 @@
+{
+  "name": "home",
+  "version": "0.0.0",
+  "description": "Home Page",
+  "author": "Manu Phatak <manu.phatak@procore.com>",
+  "homepage": "https://github.com/bionikspoon/module-federation-demo#readme",
+  "license": "MIT",
+  "main": "src/App.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bionikspoon/module-federation-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bionikspoon/module-federation-demo/issues"
+  }
+}
