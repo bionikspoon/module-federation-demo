@@ -8,6 +8,7 @@ const getPublicUrlOrPath = require('react-dev-utils/getPublicUrlOrPath')
 // https://github.com/facebook/create-react-app/issues/637
 const appDirectory = fs.realpathSync(process.cwd())
 const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath)
+const resolveSelf = (relativePath) => path.resolve(__dirname, relativePath)
 
 // We use `PUBLIC_URL` environment variable or "homepage" field to infer
 // "public path" at which the app is served.
@@ -65,6 +66,7 @@ module.exports = {
   proxySetup: resolveApp('src/setupProxy.js'),
   appNodeModules: resolveApp('node_modules'),
   publicUrlOrPath,
+  buildScripts: resolveSelf('..'),
 }
 
 module.exports.moduleFileExtensions = moduleFileExtensions
