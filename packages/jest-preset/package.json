@@ -1,0 +1,32 @@
+{
+  "name": "@bionikspoon/federation-jest-preset",
+  "version": "0.0.1",
+  "description": "Share configuration for jest",
+  "author": "Manu Phatak <manu.phatak@procore.com>",
+  "homepage": "https://github.com/bionikspoon/module-federation-demo#readme",
+  "license": "MIT",
+  "main": "lib/jest-preset.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bionikspoon/module-federation-demo.git",
+    "directory": "packages/jest-preset"
+  },
+  "bugs": {
+    "url": "https://github.com/bionikspoon/module-federation-demo/issues"
+  },
+  "dependencies": {
+    "babel-jest": "26.0.1",
+    "camelcase": "6.0.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest-environment-jsdom-fourteen": "1.0.1",
+    "jest-watch-typeahead": "0.6.0",
+    "react-app-polyfill": "1.0.6",
+    "react-native-web": "0.12.3"
+  }
+}
