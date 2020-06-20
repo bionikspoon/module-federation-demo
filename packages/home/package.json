@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Home page for module federation demo",
   "author": "Manu Phatak <manu.phatak@procore.com>",
-  "homepage": "https://github.com/bionikspoon/module-federation-demo#readme",
   "license": "MIT",
   "directories": {
     "src": "src"
@@ -25,8 +24,8 @@
   },
   "scripts": {
     "start": "build-scripts start",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "build": "build-scripts build",
+    "test": "build-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
