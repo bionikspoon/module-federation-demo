@@ -1,6 +1,6 @@
 {
-  "name": "@bionikspoon/federation-demo-home-legacy",
-  "version": "0.0.0",
+  "name": "@bionikspoon/federation-home-legacy",
+  "version": "0.0.1",
   "description": "Home Page",
   "author": "Manu Phatak <manu.phatak@procore.com>",
   "homepage": "https://github.com/bionikspoon/module-federation-demo#readme",

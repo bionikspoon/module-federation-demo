@@ -1,7 +1,24 @@
 {
-  "name": "@bionikspoon/federation-demo-home",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@bionikspoon/federation-home",
+  "version": "0.0.1",
+  "description": "Home page for module federation demo",
+  "author": "Manu Phatak <manu.phatak@procore.com>",
+  "homepage": "https://github.com/bionikspoon/module-federation-demo#readme",
+  "license": "MIT",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bionikspoon/module-federation-demo.git",
+    "directory": "packages/home"
+  },
+  "bugs": {
+    "url": "https://github.com/bionikspoon/module-federation-demo/issues"
+  },
   "dependencies": {
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
