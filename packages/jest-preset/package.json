@@ -5,7 +5,7 @@
   "author": "Manu Phatak <manu.phatak@procore.com>",
   "homepage": "https://github.com/bionikspoon/module-federation-demo#readme",
   "license": "MIT",
-  "main": "lib/jest-preset.js",
+  "main": "./jest-preset.js",
   "directories": {
     "lib": "lib"
   },
